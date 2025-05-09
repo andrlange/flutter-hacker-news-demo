@@ -13,7 +13,6 @@ just run:
 flutter pub get
 dart run build_runner build 
 flutter run -d chrome
-to start
 ```
 
 Log output is visible in the browser's console (activate in all levels: verbose).
