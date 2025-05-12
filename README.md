@@ -19,4 +19,17 @@ flutter run -d chrome
 Log output is visible in the browser's console (activate in all levels: verbose).
 
 
+## Building a container image using paketo.io Buildpacks
+
+If you have a local docker installed, you can create a docker image using the build script as:
+
+
+```bash
+./build_deployment.sh
+```
+
+### Running the container
+```bash
+docker run -p 8080:8080 flutter-hacker-news-app-demo:latest
+```
 

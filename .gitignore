@@ -9,6 +9,9 @@
 .history
 .svn/
 migrate_working_dir/
+.fastRequest/
+/playground/
+play.sh
 
 # IntelliJ related
 *.iml
@@ -89,10 +92,9 @@ app.*.map.json
 **/macos/Flutter/ephemeral/
 
 # Web related
-**/web/favicon.png
-**/web/icons/
-**/web/splash/
-lib/generated_plugin_registrant.dart
+playground/public/favicon.png
+playground/public/icons/
+playground/public/splash/
 
 # Windows related
 **/windows/flutter/generated_plugin_registrant.cc
