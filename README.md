@@ -30,6 +30,6 @@ If you have a local docker installed, you can create a docker image using the bu
 
 ### Running the container
 ```bash
-docker run -p 8080:8080 flutter-hacker-news-app-demo:latest
+docker run -p 8080:8080 andrlange/flutter-hacker-news-app-demo:latest
 ```
 

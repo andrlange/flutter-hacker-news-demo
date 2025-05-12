@@ -3,7 +3,7 @@ set -e
 
 # Configuration variables
 FLUTTER_APP_DIR=$(pwd)  # Change this to your Flutter app directory
-OUTPUT_IMAGE_NAME="flutter-hacker-news-app-demo"  # Name of the output container image
+OUTPUT_IMAGE_NAME="andrlange/flutter-hacker-news-app-demo"  # Name of the output container image
 OUTPUT_IMAGE_TAG="latest"           # Tag for the output container image
 
 
