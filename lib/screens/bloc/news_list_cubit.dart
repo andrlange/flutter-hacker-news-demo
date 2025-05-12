@@ -36,7 +36,7 @@ class NewsListCubit extends Cubit<NewsListState> {
 
   @override
   Future<void> close() {
-    Logger.info('NewsListCubit closed', runtimeType: runtimeType);
+    Logger.info('NewsListCubit closed.', runtimeType: runtimeType);
     return super.close();
   }
 }
